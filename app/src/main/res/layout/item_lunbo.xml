@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="160dp">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_lunbo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tv_lunbo_title"
+        android:background="#44000000"
+        android:text="可可西里的铁血奶爸:持冲锋枪"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:textSize="16sp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textColor="@color/colorText"
+        android:padding="5dp"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:id="@+id/ll_lunbo_indicator"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </LinearLayout>
+</RelativeLayout>
